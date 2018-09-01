@@ -1,2 +1,2 @@
-# PythonLearning
+# PythonStudy
 Python study resources
