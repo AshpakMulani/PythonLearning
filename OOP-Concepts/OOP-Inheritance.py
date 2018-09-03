@@ -30,6 +30,7 @@ class Dog(Animal):  # we are deriving new class from Animal class. This class ca
     def eat(self):   # here we are redefining / overwritting method from base class.
                      # for object of this class eat method will use this definition
                      # instead of using definition from base class.
+                     # method overwtirring is one of the type of Polymorphism.
         print(f"My Name is {self.name} and i am eating..")
 
 class Cat(Animal): # one more derived class from Animal
