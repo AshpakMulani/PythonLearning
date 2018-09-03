@@ -13,10 +13,15 @@ def runalways():
 def main():  # this function will not run when this script is imported in other script.
     print("I am executing directly and not being imported..!!")
 
-runalways()    # this function will run always while script is being imported in other script or while being ran direcly
+runalways()    # this function will run always while script is being imported in other script (runs on import <script name> code
+              # or while being ran direcly
 
 
 if __name__ == '__main__':
     main()
 
 # now this script will run main() only when ran directly and not when imported in other script
+# big codes will have this line at the bottom to run things mentioned in main() function
+
+
+
