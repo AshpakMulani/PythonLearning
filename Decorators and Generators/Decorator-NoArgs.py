@@ -27,6 +27,8 @@ func_with_decorator()  # Here we are running function returned from decorator
 
 ##########   decorator with real use  ##################
 # Instead of using above approach to call decorator function, python provide easy way to apply decorator on any function.
+# Please note here both functions are decorators are not accepting any arguments. If we want to apply decorator on
+# function which accepts arguments then there is other script for enplaning this concept 'Decorators-withArgs.py'
 
 @my_decorator  # this single line applies decorator to next defined function, thats it...!!!
 def new_func_to_decorate():
